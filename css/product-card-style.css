@@ -58,6 +58,7 @@ body {
     justify-content: space-between;
     padding: 20px; 
     white-space: nowrap;
+    flex-wrap: wrap;
   }
   
   .available-colors span {
@@ -65,7 +66,7 @@ body {
     height: 20px;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 20px; 
+    margin-right: 10px; 
   }
   
   .black-color-container {
