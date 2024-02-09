@@ -21,7 +21,8 @@ body {
   }
 
   .left-img-col {
-    flex: 1; 
+    flex: none;
+    width: 50%;
   }
   
   .left-img-col img {
@@ -31,7 +32,7 @@ body {
   }
   
   .right-info-col {
-    flex: 2; 
+    flex: 1; 
     padding: 20px; 
   }
 
