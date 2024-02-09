@@ -13,12 +13,14 @@ body {
   }
 
   .product-card {
-    width: 800px; /
-    margin: 120px auto; 
+    width: 800px; 
+    margin: 120px auto 0; 
     display: flex; 
+    flex-direction: column;
     background-color: white; 
     padding: 20px; 
     box-sizing: border-box; 
+    position: relative;
   }
   
   .left-img-col {
@@ -53,6 +55,7 @@ body {
   
   .available-colors {
     margin-top: 20px; 
+    overflow: auto;
   }
   
   .available-colors span {
@@ -76,6 +79,7 @@ body {
   }
   
   .price {
+    margin-top: auto;
     margin-top: 20px; 
   }
   
@@ -91,5 +95,8 @@ body {
     border: none; 
     border-radius: 5px; 
     font-size: 16px; 
-    cursor: pointer; 
+    cursor: pointer;
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
   }
