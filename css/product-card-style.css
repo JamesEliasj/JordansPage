@@ -18,7 +18,7 @@ body {
   
   /* Image Container */
   .image-container {
-    background-image: url('image-path.jpg'); /* Replace with your image URL */
+    background-image: url('nike-jordan.jpg'); /* Replace with your image URL */
     background-size: cover;
     background-position: center; /* Center the image */
     flex: 1; /* Take up remaining space */
