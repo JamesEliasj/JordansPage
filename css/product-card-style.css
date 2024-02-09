@@ -8,11 +8,10 @@ body {
 
   .product-card {
     width: 800px; /
-    margin: 120px auto 0; 
+    margin: 120px auto; 
     display: flex; 
-    background-color: beige; 
-    border-radius: 20px; 
-    padding: 20px; /* Add padding inside the card */
+    background-color: white; 
+    padding: 20px; 
     box-sizing: border-box; 
   }
   
@@ -67,7 +66,7 @@ body {
   }
   
   .white-color-container {
-    background-color: white; 
+    background-color: beige; 
   }
   
   .price {
