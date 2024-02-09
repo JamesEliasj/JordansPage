@@ -57,7 +57,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px; 
-    white-space: nowrap;
     flex-wrap: wrap;
   }
   
