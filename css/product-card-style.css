@@ -11,7 +11,8 @@ body {
   }
 
   .product-card {
-    width: 800px; 
+    width: 800px;
+    height: 500px; 
     margin: 120px auto 0; 
     display: flex; 
     background-color: white; 
@@ -27,7 +28,7 @@ body {
   
   .left-img-col img {
     width: 100%;
-    height: auto;
+    height: 500px;
     object-fit: cover;
   }
   
@@ -78,20 +79,18 @@ body {
   .white-color-container {
     background-color: beige;
   }
-  
-  /* Price Section */
+
   .price {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px; /* Adjust separation */
+    margin-top: 20px; 
   }
   
   .price h4 {
     font-size: 32px;
-    margin-bottom: 0; /* Remove bottom margin */
+    margin-bottom: 0; 
   }
-  
-  /* Buy Button */
+
   .buy-btn {
     width: 150px;
     height: 40px;
