@@ -21,8 +21,8 @@ body {
   }
 
   .left-img-col {
-    flex: none;
     width: 50%;
+    overflow: hidden;
   }
   
   .left-img-col img {
@@ -56,7 +56,7 @@ body {
   .available-colors {
     display: flex;
     justify-content: space-between; 
-    padding: 20px; 
+    padding: 5%; 
   }
   
   .available-colors span {
@@ -101,8 +101,4 @@ body {
     text-align: center;
     line-height: 40px; 
     transition: background-color 0.2s ease-in-out;
-  }
-  
-  .buy-btn:hover {
-    background-color: #3b3b3b; 
   }
