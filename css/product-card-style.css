@@ -1,63 +1,60 @@
 body {
     background-color: black;
-    color: black; 
+    color: black; /* Default font color */
     font-family: Arial, sans-serif;
   }
-
-  .right-info-col h5 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: lightgray; 
-  }
-
+  
+  /* Product Card Container */
   .product-card {
     width: 800px;
-    height: 500px;
-    margin: 120px auto 0; 
-    display: flex; 
-    flex-direction: row-reverse;
-    background-color: white; 
-    padding: 20px; 
-    box-sizing: border-box; 
-  }
-
-  .left-img-col {
-    flex: none;
-    width: 50%;
+    height: 500px; /* Explicitly set height as in the image */
+    margin: 120px auto 0;
+    display: flex;
+    flex-direction: row-reverse; /* Image on right, text on left */
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
   }
   
-  .left-img-col img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  /* Image Container */
+  .image-container {
+    background-image: url('image-path.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center; /* Center the image */
+    flex: 1; /* Take up remaining space */
   }
   
+  /* Left Information Column */
   .right-info-col {
-    flex: 1; 
-    padding: 20px; 
+    flex: 1; /* Same width as image container */
+    padding: 20px; /* Maintain 20px padding */
   }
-
+  
+  /* Product Heading */
   .right-info-col h3 {
     font-size: 32px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px; /* Match spacing */
   }
   
+  /* Product Subheading */
   .right-info-col h5 {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Match spacing */
   }
   
+  /* Product Description */
   .right-info-col p {
     font-size: 14px;
     line-height: 1.5;
-    padding-left: 50px; 
-    margin-bottom: 20px; 
+    padding-left: 0; /* Remove left indent */
+    margin-bottom: 20px; /* Match spacing */
   }
-
+  
+  /* Available Colors */
   .available-colors {
     display: flex;
-    justify-content: space-between; 
-    padding: 5px; 
+    justify-content: space-between;
+    padding: 20px; /* Match spacing */
   }
   
   .available-colors span {
@@ -65,7 +62,7 @@ body {
     height: 20px;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 10px; 
+    margin-right: 10px; /* Maintain spacing */
   }
   
   .black-color-container {
@@ -79,18 +76,20 @@ body {
   .white-color-container {
     background-color: beige;
   }
-
+  
+  /* Price Section */
   .price {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px; 
+    margin-top: 20px; /* Match spacing */
   }
   
   .price h4 {
     font-size: 32px;
-    margin-bottom: 0; 
+    margin-bottom: 0; /* Remove bottom margin */
   }
-
+  
+  /* Buy Button */
   .buy-btn {
     width: 150px;
     height: 40px;
@@ -100,10 +99,15 @@ body {
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    line-height: 40px; 
+    line-height: 40px; /* Center text vertically */
     transition: background-color 0.2s ease-in-out;
   }
   
   .buy-btn:hover {
-    background-color: #3b3b3b; 
+    background-color: #3b3b3b; /* Subtle hover effect */
+  }
+  
+  /* Text "Available colors" */
+  .available-colors span:first-child {
+    margin-left: 0; /* Remove left margin for first span */
   }
