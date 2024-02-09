@@ -56,7 +56,7 @@ body {
   .available-colors {
     display: flex;
     justify-content: space-between;
-    padding: 5px; 
+    padding: 20px; 
   }
   
   .available-colors span {
